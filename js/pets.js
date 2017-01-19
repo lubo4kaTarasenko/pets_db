@@ -4,8 +4,7 @@ $(function() {
         var $age = $("#pet_age").val();
         var $comment = $("#pet_comment").val();
         var $type = $("#pet_type").val();
-
-
+        //hello!
 
         var pet = {
             name: $name,
