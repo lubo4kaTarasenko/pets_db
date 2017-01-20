@@ -9,7 +9,7 @@ $(function() {
               if(arr[i].name == $name) {
                 arr.splice(i, 1);
                 var html = "<div class='row' id='mess'><div class='col-sm-2'>" +
-                    "</div><div class='col-sm-6'><div class='alert alert-success'>Питомец успешно удален</div>" +
+                    "</div><div class='col-sm-5'><div class='alert alert-success'>Питомец успешно удален</div>" +
                     "</div></div>";
 
                 $(".container").append(html);
